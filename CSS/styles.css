@@ -1,0 +1,162 @@
+body {
+  background-color: #32CD32;
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+}
+
+#quiz-title {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 0 25px 0;
+}
+
+.container {
+  width: 900px;
+  margin: 8px auto;
+  background-color: #CD853F;
+  border-radius: 4px;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+}
+
+#question {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 33px;
+}
+
+#choices {
+  display: grid;
+  grid-template-columns: repeat(2, 10px);
+  column-gap: 300px;
+  margin-left: 180px;
+}
+
+#choices li {
+  display: block;
+  margin: auto;
+  text-decoration: none;
+  display: block;
+  margin-top: 30px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+#choices li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#choices img {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+#choices img.active  {
+  transform: rotate(7turn);
+  transition: 2s;
+}
+
+
+#btn, #result > a {
+  background-color: #136fff;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0 5px 0	#5d99ff;
+  font-size: 25px;
+  width: 220px;
+  margin: 50px auto 0 auto ;
+  user-select: none;
+  opacity: 0.8;
+}
+
+#btn:hover, #result > a:hover {
+  opacity: 1.0;
+}
+
+#btn.disabled {
+  background-color: #ccc;
+  box-shadow: 0 5px 0 #bbb;
+  opacity: 0.7;
+}
+
+#choices > li.correct {
+  background-color:#FF0033;
+  width: 210px;
+  height: 210px;
+  border-radius: 100px;
+  transition: 2s;
+}
+
+#choices > li.correct::after {
+  display: block;
+  content:'正解！';
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 2s;
+}
+
+#choices > li.wrong {
+  background-color: #7B3CFF;
+  width: 210px;
+  height: 210px;
+  border-radius: 100px;
+  transition: 2s;
+}
+
+#choices > li.wrong::after {
+  display: block;
+  content:'残念!';
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 2s;
+}
+
+#result {
+  position: absolute;
+  width: 350px;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.8);
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 15px;
+  text-align: center;
+  transition: 1s;
+}
+
+#result.hide {
+  transform: translateY(-700px);
+}
+
+#result > p {
+  font-size: 35px;
+}
+
+#result h6 {
+  font-size: 20px;
+}
+
+#result > a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+}
