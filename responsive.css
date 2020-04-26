@@ -160,5 +160,17 @@
     text-decoration: none;
     font-size: 20px;
   }
+  
+    footer {
+    text-align: center;
+    color: #fff;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  
+  footer span {
+    font-size: 20px;
+  }
 
 }
