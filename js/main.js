@@ -10,7 +10,7 @@ const warning = document.getElementById('warning');
 const choice = [
   {name:'松井秀喜', img: "https://image.news.livedoor.com/newsimage/stf/b/3/b3400_1397_76181281_7d0010c9.jpg"},
   {name:'大谷翔平', img: "https://the-ans.info/wp-content/uploads/2020/04/20200409_ohtani_gc2-650x433.jpg"},
-  {name:'佐々木主浩', img: "https://fuya.site/wp-content/uploads/2019/06/628x474.jpg"},
+  {name:'佐々木主浩', img: "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXBZO6548755018012014000001-PB1-50.jpg?auto=format%2Ccompress&ch=Width%2CDPR&fit=max&ixlib=java-1.2.0&s=5840889ab74f5c35ad8f2547ce0686c6"},
   {name:'イチロー', img: "https://smile-cathand.com/fwp422/wp-content/uploads/2016/06/20151213_ichiro-560x3711.jpg"},
   {name:'柳田悠岐', img: "https://www.jiji.com/news/handmade/special/feature/v4/photos/201812yanagita/1812yanagita-jpp028744903_310.jpg"},
    {name:'坂本勇人', img: "https://www.nikkansports.com/baseball/news/img/201905080001027-w500_0.jpg"},
@@ -54,7 +54,7 @@ const quizSet = shuffle([
   {q: 'MLBで新人王をとっていないのは？', c: [choice[0], choice[1], choice[2], choice[3]]},
   {q: 'この中で最も年俸が高いのは？', c: [choice[4], choice[5], choice[6], choice[7]]},
   {q: '一人だけ学年が違うのは？', c: [choice[8], choice[9], choice[10], choice[11]]},
-  {q: 'この中で通算ホームラン数で最も多いのは？', c: [choice[12], choice[13], choice[14], choice[15]]},
+  {q: 'この中で通算ホームラン数が最も多いのは？', c: [choice[12], choice[13], choice[14], choice[15]]},
   {q: '盗塁王を取ったことがないのは？', c: [choice[16], choice[17], choice[18], choice[19]]},
   {q: 'MLBで最も年俸が高いのは？', c: [choice[20], choice[21], choice[22], choice[23]]},
   {q: '現在、通算勝利数が最も多いのは？', c: [choice[24], choice[25], choice[26], choice[27]]},
