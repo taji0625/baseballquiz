@@ -54,13 +54,13 @@ const quizSet = shuffle([
   {q: 'MLBで新人王をとっていないのは？', c: [choice[0], choice[1], choice[2], choice[3]]},
   {q: 'この中で最も年俸が高いのは？', c: [choice[4], choice[5], choice[6], choice[7]]},
   {q: '一人だけ学年が違うのは？', c: [choice[8], choice[9], choice[10], choice[11]]},
-  {q: '通算ホームラン数で最も多いのは？', c: [choice[12], choice[13], choice[14], choice[15]]},
+  {q: 'この中で通算ホームラン数で最も多いのは？', c: [choice[12], choice[13], choice[14], choice[15]]},
   {q: '盗塁王を取ったことがないのは？', c: [choice[16], choice[17], choice[18], choice[19]]},
   {q: 'MLBで最も年俸が高いのは？', c: [choice[20], choice[21], choice[22], choice[23]]},
-  {q: '現在、通算勝利数が最も多いは？', c: [choice[24], choice[25], choice[26], choice[27]]},
+  {q: '現在、通算勝利数が最も多いのは？', c: [choice[24], choice[25], choice[26], choice[27]]},
   {q: '沢村賞を１回しか取ったことがないのは？', c: [choice[28], choice[29], choice[30], choice[31]]},
   {q: 'サイクルヒットを達成したことがないのは？', c: [choice[32], choice[33], choice[34], choice[35]]},
-  {q: '通算ホームラン数で最も多いのは？', c: [choice[36], choice[37], choice[38], choice[39]]},
+  {q: 'この中で通算ホームラン数が最も多いのは？', c: [choice[36], choice[37], choice[38], choice[39]]},
 ]);
 
 let currentNum = 0;
