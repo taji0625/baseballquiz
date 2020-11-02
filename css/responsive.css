@@ -5,6 +5,10 @@
     font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
     margin: 0;
   }
+
+  #toppage {
+    height: auto;
+  }
   
   #quiz-title {
     text-align: center;
@@ -22,7 +26,7 @@
   
   .container {
     width: 330px;
-    height: 840px;
+    height: auto;
     margin: 0 auto;
     background-color: #CD853F;
     border-radius: 4px;
@@ -37,17 +41,24 @@
   }
   
   #choices {
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     text-align: center;
-    padding: 0;
-    margin: 0;
-    display: block;
+    padding-left: 0;
   }
   
   #choices li {
+    display: block;
+    margin: 40px 10px;
     text-decoration: none;
-    margin-top: 30px;
-    font-size: 14px;
+    display: block;
+    font-size: 16px;
+    opacity: 0.8;
+    background-color: #CD853F;
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
   }
   
   #choices li:hover {
@@ -56,8 +67,8 @@
   }
   
   li img {
-    width: 120px;
-    height: 120px;
+    width: 80px !important;
+    height: 80px !important;
     margin: 0 auto;
     border-radius: 8px;
     display: block;
@@ -95,8 +106,8 @@
   
   #choices > li.correct {
     background-color:#FF0033;
-    width: 210px;
-    height: 210px;
+    width: 130px;
+    height: 130px;
     border-radius: 100px;
     transition: 2s;
   }
@@ -112,8 +123,8 @@
   
   #choices > li.wrong {
     background-color: #7B3CFF;
-    width: 210px;
-    height: 210px;
+    width: 130px;
+    height: 130px;
     border-radius: 100px;
     transition: 2s;
   }
@@ -133,13 +144,14 @@
     background-color: #fff;
     padding: 10px;
     box-shadow: 0 7px 14px rgba(0, 0, 0, 0.8);
-    top: 170px;
+    top: 90px;
     left: 0;
     right: 0;
     margin: 0 auto;
     border-radius: 15px;
     text-align: center;
     transition: 2s;
+    opacity: 0.9;
   }
   
   #result.hide {
@@ -163,7 +175,7 @@
     footer {
     text-align: center;
     color: #fff;
-    margin-top: 130px;
+    margin-top: 20px;
     margin-bottom: 20px;
     font-size: 15px;
   }

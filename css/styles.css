@@ -35,20 +35,24 @@ body {
 }
 
 #choices {
-  display: grid;
-  grid-template-columns: repeat(2, 10px);
-  column-gap: 300px;
-  margin-left: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-left: 0;
 }
 
 #choices li {
   display: block;
-  margin: auto;
+  margin: 40px 50px;
   text-decoration: none;
   display: block;
-  margin-top: 30px;
   font-size: 20px;
   opacity: 0.8;
+  background-color: #CD853F;
+  width: 210px;
+  height: 210px;
+  border-radius: 100px;
 }
 
 #choices li:hover {
@@ -59,9 +63,9 @@ body {
 #choices img {
   width: 150px;
   height: 150px;
-  margin: auto;
   border-radius: 8px;
   display: block;
+  margin: 0 auto;
 }
 
 #choices img.active  {
@@ -121,7 +125,7 @@ body {
 
 #choices > li.wrong::after {
   display: block;
-  content:'残念!';
+  content:'残念！';
   color: white;
   font-weight: bold;
   font-size: 24px;
@@ -141,6 +145,7 @@ body {
   border-radius: 15px;
   text-align: center;
   transition: 1s;
+  opacity: 0.9;
 }
 
 #result.hide {
