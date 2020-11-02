@@ -28,10 +28,10 @@ const choice = [
   {name:'糸井嘉男', img: "image/itoi.jpg"},
   {name:'青木宣親', img: "image/aoki.jpg"},
   {name:'丸佳浩', img: "image/maru.jpg"},
-  {name:'マイク・トラウト', img: "image/trout.jpg"},
-  {name:'ジャスティン・バーランダー', img: "image/verlander.jpg"},
-  {name:'コディ・ベリンジャー', img: "image/berinja.jpg"},
-  {name:'クレイトン・カーショー', img: "image/kershow.jpg"},
+  {name:'トラウト', img: "image/trout.jpg"},
+  {name:'バーランダー', img: "image/verlander.jpg"},
+  {name:'ベリンジャー', img: "image/berinja.jpg"},
+  {name:'カーショー', img: "image/kershow.jpg"},
   {name:'田中将大', img: "image/tanaka.jpeg"},
   {name:'ダルビッシュ有', img: "image/darvish.jpg"},
   {name:'岩隈久志', img: "image/iwakuma.jpg"},
@@ -51,15 +51,15 @@ const choice = [
 ];
 
 const quizSet = shuffle([
-  {q: 'MLBで新人王をとっていないのは？', c: [choice[0], choice[1], choice[2], choice[3]]},
-  {q: 'この中で最も年俸が高いのは？', c: [choice[4], choice[5], choice[6], choice[7]]},
-  {q: '一人だけ学年が違うのは？', c: [choice[8], choice[9], choice[10], choice[11]]},
+  {q: 'この中でメジャーリーグで新人王をとっていないのは？', c: [choice[0], choice[1], choice[2], choice[3]]},
+  {q: 'この中で現在最も年俸が高いのは？', c: [choice[4], choice[5], choice[6], choice[7]]},
+  {q: 'この中で一人だけ学年が違うのは？', c: [choice[8], choice[9], choice[10], choice[11]]},
   {q: 'この中で通算ホームラン数が最も多いのは？', c: [choice[12], choice[13], choice[14], choice[15]]},
-  {q: '盗塁王を取ったことがないのは？', c: [choice[16], choice[17], choice[18], choice[19]]},
-  {q: 'MLBで最も年俸が高いのは？', c: [choice[20], choice[21], choice[22], choice[23]]},
-  {q: '現在、通算勝利数が最も多いのは？', c: [choice[24], choice[25], choice[26], choice[27]]},
-  {q: '沢村賞を１回しか取ったことがないのは？', c: [choice[28], choice[29], choice[30], choice[31]]},
-  {q: 'サイクルヒットを達成したことがないのは？', c: [choice[32], choice[33], choice[34], choice[35]]},
+  {q: 'この中で盗塁王を取ったことがないのは？', c: [choice[16], choice[17], choice[18], choice[19]]},
+  {q: 'メジャーリーグで現在最も年俸が高いのは？', c: [choice[20], choice[21], choice[22], choice[23]]},
+  {q: 'この中で現在通算勝利数が最も多いのは？', c: [choice[24], choice[25], choice[26], choice[27]]},
+  {q: 'この中で沢村賞を１回しか取ったことがないのは？', c: [choice[28], choice[29], choice[30], choice[31]]},
+  {q: 'この中でサイクルヒットを達成したことがないのは？', c: [choice[32], choice[33], choice[34], choice[35]]},
   {q: 'この中で通算ホームラン数が最も多いのは？', c: [choice[36], choice[37], choice[38], choice[39]]},
 ]);
 
